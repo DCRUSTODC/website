@@ -49,7 +49,7 @@ export const list_FAQ = [
   {
     id: 5,
     title: 'Where can I start?',
-    desc: 'Start by browsing over our the Github projects, opening issues, merging PRs, and more, to know the basics and start from absolute beginning, you can join our discord server and clear things out.',
+    desc: 'Start by browsing over the Github projects, opening issues, merging PRs, and more, to know the basics and start from absolute beginning, you can join our discord server and clear things out.',
   },
   {
     id: 6,
