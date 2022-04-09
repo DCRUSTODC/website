@@ -1,19 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  background-color: rgb(214, 214, 214);
-  margin: 0;
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.main_bg {
+  background: rgb(152, 77, 56);
+  background: linear-gradient(95deg,
+      rgb(66, 24, 255) 0%,
+      rgba(168, 17, 100, 0.9) 50%);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.btn_primary {
+  background: rgb(183, 92, 255);
+  background: linear-gradient(193deg,
+      rgb(153, 28, 255) 15%,
+      rgb(48, 25, 255) 89%);
 }
 
-* {
-  box-sizing: border-box;
+.btn_primary_outline {
+  background: transparent;
+  border: 3px solid linear-gradient(193deg,
+      rgba(183, 92, 255, 1) 15%,
+      rgba(103, 26, 228, 1) 89%);
 }
