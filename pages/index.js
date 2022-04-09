@@ -31,7 +31,7 @@ const Home = () => {
             Get started with your first contributions
           </h2>
           <Reveal delay={200} duration={1000} keyframes={fadeInDownShorter} style={{ marginTop: '20px' }}>
-            <Button isTarget isLink href={'https://github.com/DCRUSTODC'}>
+            <Button isTarget isLink href={'https://github.com/orgs/DCRUSTODC/repositories'}>
               Browse repositories
             </Button>
           </Reveal>

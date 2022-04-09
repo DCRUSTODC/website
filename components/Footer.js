@@ -77,8 +77,8 @@ const Footer = () => {
                     src='/icons/discord.svg'
                     width={34}
                     height={34}
-                    alt='youtube'
-                    onClick={yt}
+                    alt='discord'
+                    onClick={discord}
                   />
                 </div>
                 <div className='mr-10 cursor-pointer'>
@@ -86,8 +86,8 @@ const Footer = () => {
                     src='/icons/instagram.svg'
                     width={28}
                     height={28}
-                    alt='discord'
-                    onClick={discord}
+                    alt='instagram'
+                    onClick={ig}
                   ></Image>
                 </div>
                 <div className='cursor-pointer'>
@@ -95,8 +95,8 @@ const Footer = () => {
                     src='/icons/youtube.svg'
                     width={30}
                     height={30}
-                    alt='instagram'
-                    onClick={ig}
+                    alt='youtube'
+                    onClick={yt}
                   />
                 </div>
               </div>

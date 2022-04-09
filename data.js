@@ -1,28 +1,28 @@
-export const list_top_creator = [
+export const list_team_members = [
   {
     id: 1,
     username: 'Sambhav Saxena',
     image: '/team/me.jpeg',
-    bgimage: '/creators/bgcreator1.png',
-    dis: 'Sambhav is a software engineer, currently working at Google. He is a creator of the open source project.',
+    bgimage: '/team/bgcreator1.png',
+    dis: 'The idea of an open source community within an institution is itself so readily acceptable by everyone we have been talking to, why not just implement the same in actual?',
     link: 'https://github.com/sambhavsaxena'
   },
   {
     id: 2,
-    username: 'Parikshit Verma',
-    image: '/team/pari.jpg',
-    bgimage: '/creators/bgcreator2.png',
-    dis: 'Parikshit is a software engineer, currently working at Google. He is a creator of the open source project.',
-    link: 'https://github.com/parik-shit'
+    username: 'Rahul',
+    image: '/team/rahul.jpg',
+    bgimage: '/team/bgcreator3.png',
+    dis: 'Working around with different kinds of ML Algorithms and coming to an actual solution was almost impossible without having a community behind my back.',
+    link: 'https://github.com/ErRahul001'
   },
   {
     id: 3,
-    username: 'Rahul',
-    image: '/team/rahul.jpg',
-    bgimage: '/creators/bgcreator3.png',
-    dis: 'Rahul is a software engineer, currently working at Google. He is a creator of the open source project.',
-    link: 'https://github.com/ErRahul001'
-  },
+    username: 'Parikshit Verma',
+    image: '/team/pari.jpg',
+    bgimage: '/team/bgcreator2.png',
+    dis: 'After working with a lot of professionals from not just from India but from around the planet, I realized the power of a community by actually being a part of one. Hence this.',
+    link: 'https://github.com/parik-shit'
+  }
 ];
 
 export const list_FAQ = [

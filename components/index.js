@@ -1,7 +1,7 @@
 import AboutUs from './AboutUs';
 import Button from './Button';
 import Container from './Container';
-import CreatorItem from './CreatorItem';
+import Creator from './Creator';
 import FAQ from './FAQ';
 import Footer from './Footer';
 import Hero from './Hero';
@@ -13,7 +13,7 @@ import Team from './Team';
 
 export {
   FAQ,
-  CreatorItem,
+  Creator,
   Team,
   Footer,
   Navbar,

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { Button } from '.';
 
-const CreatorItem = ({ data }) => {
+const Creator = ({ data }) => {
   const { image, bgimage, username, dis, link } = data;
   return (
     <div className='hover:bg-[#ffffff66] transition duration-300 ease-in-out bg-[#ffffff1a] overflow-hidden rounded-lg shadow-lg'>
@@ -39,4 +39,4 @@ const CreatorItem = ({ data }) => {
   );
 };
 
-export default CreatorItem;
+export default Creator;

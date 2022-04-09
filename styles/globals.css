@@ -4,22 +4,21 @@
 @tailwind utilities;
 
 .main_bg {
-  background: rgb(152, 77, 56);
-  background: linear-gradient(95deg,
+  background: linear-gradient(0deg,
       rgb(66, 24, 255) 0%,
-      rgba(168, 17, 100, 0.9) 50%);
+      rgba(168, 17, 100, 0.8) 50%);
 }
 
 .btn_primary {
   background: rgb(183, 92, 255);
   background: linear-gradient(193deg,
-      rgb(153, 28, 255) 15%,
-      rgb(48, 25, 255) 89%);
+      rgba(255, 37, 255, 0.5) 15%,
+      rgba(95, 77, 255, 0.5) 89%);
 }
 
 .btn_primary_outline {
   background: transparent;
   border: 3px solid linear-gradient(193deg,
-      rgba(183, 92, 255, 1) 15%,
-      rgba(103, 26, 228, 1) 89%);
+      rgb(255, 79, 246) 15%,
+      rgb(39, 185, 47) 89%);
 }

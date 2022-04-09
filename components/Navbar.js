@@ -9,7 +9,6 @@ const Navbar = () => {
   const { width } = useWindowSize();
   const toggleMenu = () => setMenu(!menu);
   const closeMenu = () => setMenu(false);
-
   const refMenu = useRef(null);
 
   useEffect(() => {

@@ -1,6 +1,6 @@
-import { list_top_creator } from '@/fake_data';
+import { list_team_members } from '@/data';
 import React from 'react';
-import { Container, CreatorItem } from '.';
+import { Container, Creator } from '.';
 import { Reveal } from 'react-awesome-reveal';
 import { fadeInDownShorter, fadeInDownShorter2 } from '@/keyframes';
 const Team = () => {
@@ -15,14 +15,14 @@ const Team = () => {
         </Reveal>
       </div>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
-        {list_top_creator.map((item, i) => (
+        {list_team_members.map((item, i) => (
           <Reveal
             key={i}
             keyframes={fadeInDownShorter}
             duration={500}
             delay={100 * (i + 1)}
           >
-            <CreatorItem key={i} data={item} />
+            <Creator key={i} data={item} />
           </Reveal>
         ))}
       </div>

@@ -42,7 +42,7 @@ const AboutUs = () => {
             Currently, the community is in its initial stages, and there's yet a lot to do, slow and steady.{' '}
           </p>
           <Reveal delay={200} duration={1000} keyframes={fadeInDownShorter2} style={{ marginTop: '5%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <Button variant={'primary'} isTarget isLink href={'https://dcrust.edu.in/'}>More about DCRUST</Button>
+            <Button variant={'btn_primary_outline'} isTarget isLink href={'https://dcrust.edu.in/'}>More about DCRUST</Button>
           </Reveal>
         </div>
       </div>

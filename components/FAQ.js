@@ -1,4 +1,4 @@
-import { list_FAQ } from '@/fake_data';
+import { list_FAQ } from '@/data';
 import React, { useState } from 'react';
 import { Container } from '.';
 import { Reveal, Fade } from 'react-awesome-reveal';
