@@ -5,8 +5,8 @@
 
 .main_bg {
   background: linear-gradient(0deg,
-      rgb(66, 24, 255) 0%,
-      rgba(168, 17, 100, 0.8) 50%);
+      rgb(66, 24, 255, 0.8) 0%,
+      rgba(165, 6, 93, 0.8) 90%);
 }
 
 .btn_primary {

@@ -16,7 +16,8 @@ const Hero = () => {
         </Reveal>
         <Reveal keyframes={fadeInDownShorter} duration={1000} delay={800}>
           <p className='mb-8 opacity-50'>
-            For the first time in history, for students of DCRUST contributing to open source are going to have a community altogether.
+            For the first time in history, for students of DCRUST contributing to open source are going to have a community altogether. <br />
+            <strong>DCRUST Open-source Developers Community</strong>
           </p>
         </Reveal>
 

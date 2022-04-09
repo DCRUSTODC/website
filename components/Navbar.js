@@ -62,7 +62,7 @@ const ContentSidebar = ({ toggleMenu }) => {
   return (
     <div className='items-center flex-col sm:flex-row flex'>
       <div className='block sm:hidden lg:block'>
-        <Input />
+        {/* <Input /> */}
       </div>
       <Link href='/#about'>
         <a

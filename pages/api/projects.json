@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "DSA C++",
+        "domain": "Competitive programming",
+        "repository": "https://github.com/dcrustodc/dsa",
+        "maintainer": "Sambhav Saxena"
+    },
+    {
+        "id": "2",
+        "name": "Computer Vision",
+        "domain": "Machine Learning",
+        "repository": "https://github.com/dcrustodc/machinelearning",
+        "maintainer": "Parikshit Verma"
+    },
+    {
+        "id": "3",
+        "name": "Virtual Reality",
+        "domain": "AR / VR",
+        "repository": "https://github.com/dcrustodc/virtualreality",
+        "maintainer": "Rahul"
+    },
+    {
+        "id": "4",
+        "name": "Virtual Reality",
+        "domain": "AR / VR",
+        "repository": "https://github.com/dcrustodc/virtualreality",
+        "maintainer": "Rahul"
+    }
+]

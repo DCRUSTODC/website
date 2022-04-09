@@ -13,7 +13,7 @@ const AboutUs = () => {
       <div className='flex items-center'>
         <div className='w-[44%] hidden sm:block'>
           <Reveal keyframes={fadeInLeft} triggerOnce>
-            <div className='relative w-full h-[500px] rounded-xl overflow-hidden'>
+            <div className='relative w-full h-[500px] rounded-xl overflow-hidden' style={{ opacity: '0.8' }}>
               <Image
                 layout='fill'
                 objectFit='cover'
