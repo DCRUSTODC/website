@@ -18,7 +18,7 @@ export const list_team_members = [
   {
     id: 3,
     username: 'Parikshit Verma',
-    image: '/team/pari.jpg',
+    image: '/team/parik.jpeg',
     bgimage: '/team/bgcreator2.png',
     dis: 'After working with a lot of professionals from not just from India but from around the planet, I realized the power of a community by actually being a part of one. Hence this.',
     link: 'https://github.com/parik-shit'
