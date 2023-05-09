@@ -84,6 +84,13 @@ export const list_FAQ = [
 
 export const top_coders = [
   {
+    id: 0,
+    name: "NAME",
+    url: "#leaderboard",
+    rank: "RANK", 
+    score: "SCORE"
+  },
+  {
     id: 1,
     name: "Aryan Sanghi",
     url: "https://www.linkedin.com/in/aryan-sanghi-0b9a6a214/",
