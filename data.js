@@ -22,6 +22,30 @@ export const list_team_members = [
     bgimage: '/team/bgcreator2.png',
     dis: 'After working with a lot of professionals from not just from India but from around the planet, I realized the power of a community by actually being a part of one. Hence this.',
     link: 'https://github.com/parik-shit'
+  },
+  {
+    id: 4,
+    username: 'Harsh Prajapati',
+    image: '/team/gola.jpeg',
+    bgimage: '/team/bgcreator2.png',
+    dis: 'After working with a lot of professionals from not just from India but from around the planet, I realized the power of a community by actually being a part of one. Hence this.',
+    link: 'https://github.com/pardhan007'
+  },
+  {
+    id: 5,
+    username: 'Himanshu Rishi',
+    image: '/team/himanshu.jpeg',
+    bgimage: '/team/bgcreator1.png',
+    dis: 'After working with a lot of professionals from not just from India but from around the planet, I realized the power of a community by actually being a part of one. Hence this.',
+    link: 'https://github.com/himanshu-rishi'
+  },
+  {
+    id: 6,
+    username: 'Aryan Sanghi',
+    image: '/team/sanghi.png',
+    bgimage: '/team/bgcreator3.png',
+    dis: 'After working with a lot of professionals from not just from India but from around the planet, I realized the power of a community by actually being a part of one. Hence this.',
+    link: 'https://github.com/Aryan-Sanghi-008'
   }
 ];
 
@@ -57,3 +81,24 @@ export const list_FAQ = [
     desc: 'Yes, not just this, but any other open source community is equally welcoming and beginner friendly for people of all domains.',
   },
 ];
+
+export const top_coders = [
+  {
+    id: 1,
+    name: "Aryan Sanghi",
+    rank: 1,
+    score: 200
+  },
+  {
+    id: 2,
+    name: "Jitender Sharma",
+    rank: 2,
+    score: 120
+  },
+  {
+    id: 3,
+    name: "Ansal Jain",
+    rank: 3,
+    score: 100
+  },
+]

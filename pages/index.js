@@ -12,11 +12,13 @@ import {
 import React from 'react';
 import { Reveal } from 'react-awesome-reveal';
 import { fadeInDownShorter } from '@/keyframes';
+import Leaderboard from '@/components/Leaderboard';
 const Home = () => {
   return (
     <div className='h-full main_bg text-white overflow-hidden' id='top'>
       <Navbar />
       <Hero />
+      <Leaderboard/>
       <Sponsor />
       <AboutUs />
       <Team />
