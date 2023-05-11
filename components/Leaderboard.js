@@ -37,7 +37,7 @@ const Leaderboard = () => {
                   {item.id === 0 ? (
                     item.name
                   ) : (
-                    <a href={item.url}>{item.name}</a>
+                    <a href={item.url} target={'_blank'}>{item.name}</a>
                   )}
                 </div>
                 <div
