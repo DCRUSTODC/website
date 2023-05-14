@@ -2,7 +2,7 @@ import useWindowSize from '@/hooks/useWindowSize;';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react';
-import { Button, Container, Input, Logo } from '.';
+import { Button, Container, Logo } from '.';
 import { Fade } from 'react-awesome-reveal';
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -62,7 +62,6 @@ const ContentSidebar = ({ toggleMenu }) => {
   return (
     <div className='items-center flex-col sm:flex-row flex'>
       <div className='block sm:hidden lg:block'>
-        {/* <Input /> */}
       </div>
       <Link href='/#about'>
         <a

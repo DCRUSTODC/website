@@ -9,7 +9,7 @@ const Footer = () => {
     document.documentElement.scrollTop = 0;
   }
   const ig = () => {
-    window.location.href = 'https://instagram.com/xambhav';
+    window.location.href = 'https://instagram.com/dcrustodc';
   }
   const discord = () => {
     window.location.href = 'https://discord.gg/ttYFsAwKhY';
@@ -65,11 +65,8 @@ const Footer = () => {
           <div>
             <p className='font-bold text-xl mb-5'>Contact</p>
             <div className='flex flex-col'>
-              <Link href='tel:+91 9999009805'>
-                <a className='mb-4 opacity-50'>+91 9999009805</a>
-              </Link>
-              <Link href='mailto:sambhavsaxena02@gmail.com'>
-                <a className='mb-5 opacity-50'>sambhavsaxena02@gmail.com</a>
+              <Link href='mailto:dcrustodc@gmail.com'>
+                <a className='mb-5 opacity-50'>dcrustodc@gmail.com</a>
               </Link>
               <div className='flex items-center'>
                 <div className='mr-10 cursor-pointer'>
