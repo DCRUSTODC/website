@@ -15,7 +15,7 @@ const Footer = () => {
     window.location.href = 'https://discord.gg/ttYFsAwKhY';
   }
   const yt = () => {
-    window.location.href = 'https://www.youtube.com/channel/UC_5qIzICE0wt5ZsSdiq7KfQ';
+    window.location.href = 'https://www.theverge.com/tech';
   }
   return (
     <Container className={'pb-10'}>
