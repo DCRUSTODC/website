@@ -1,4 +1,4 @@
-import { top_coders } from "@/data-top-coders";
+import { top_coders } from "@/assets/data/top-coders";
 import React from "react";
 import { Container } from ".";
 import { Reveal } from "react-awesome-reveal";

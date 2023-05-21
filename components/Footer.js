@@ -35,7 +35,7 @@ const Footer = () => {
               <Link href="/team#head">
                 <a className="mb-4 opacity-50">Our Team</a>
               </Link>
-              <Link href="https://docs.google.com/document/d/1_qWh5aL0p0PyJG7bLfGjoH0jenzw-qRXlmFloYEJZIY/edit?usp=sharing">
+              <Link href="https://docs.google.com/document/d/1W3NY4c8LYlDCMZtmQvVNlxSR20xvpybCfZfSRwEprjY/edit?usp=sharing">
                 <a className="mb-4 opacity-50">Resources</a>
               </Link>
               <Link href="/#faq">
@@ -49,7 +49,7 @@ const Footer = () => {
               <Link href="/events">
                 <a className="mb-4 opacity-50">Events</a>
               </Link>
-              <Link href="/">
+              <Link href="https://github.com/DCRUSTODC">
                 <a className="mb-4 opacity-50">Open source</a>
               </Link>
               <Link href="/">
