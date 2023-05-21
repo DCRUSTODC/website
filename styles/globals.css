@@ -1,28 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .main_bg {
-  background: linear-gradient(0deg,
-      rgb(66, 24, 255, 0.8) 0%,
-      rgba(165, 6, 93, 0.8) 90%);
+  background: linear-gradient(
+    0deg,
+    rgb(66, 24, 255, 0.8) 0%,
+    rgba(165, 6, 93, 0.8) 90%
+  );
 }
 
 .btn_primary {
   background: rgb(183, 92, 255);
-  background: linear-gradient(193deg,
-      rgba(255, 37, 255, 0.5) 15%,
-      rgba(95, 77, 255, 0.5) 89%);
+  background: linear-gradient(
+    193deg,
+    rgba(255, 37, 255, 0.5) 15%,
+    rgba(95, 77, 255, 0.5) 89%
+  );
 }
 
 .btn_primary_outline {
   background: transparent;
-  border: 3px solid linear-gradient(193deg,
-      rgb(255, 79, 246) 15%,
-      rgb(39, 185, 47) 89%);
+  border: 3px solid
+    linear-gradient(193deg, rgb(255, 79, 246) 15%, rgb(39, 185, 47) 89%);
 }
 
-a:hover{
-  color: #dfa3bf;
+a:hover {
+  color: #73ff00;
 }

@@ -1,9 +1,9 @@
-import useWindowSize from '@/hooks/useWindowSize;';
-import Image from 'next/image';
-import Link from 'next/link';
-import React, { useEffect, useRef, useState } from 'react';
-import { Button, Container, Logo } from '.';
-import { Fade } from 'react-awesome-reveal';
+import useWindowSize from "@/hooks/useWindowSize;";
+import Image from "next/image";
+import Link from "next/link";
+import React, { useEffect, useRef, useState } from "react";
+import { Button, Container, Logo } from ".";
+import { Fade } from "react-awesome-reveal";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const { width } = useWindowSize();
@@ -20,24 +20,24 @@ const Navbar = () => {
       }
       closeMenu();
     };
-    document.addEventListener('mousedown', handleClick);
+    document.addEventListener("onClick", handleClick);
     return () => {
-      document.removeEventListener('mousedown', handleClick);
+      document.removeEventListener("onClick", handleClick);
     };
   }, []);
 
   return (
-    <div className='py-4 relative'>
-      <Container className={'flex justify-between items-center'}>
+    <div className="py-4 relative">
+      <Container className={"flex justify-between items-center"}>
         <Logo />
-        <div className='hidden sm:block'>
+        <div className="hidden sm:block">
           <ContentSidebar toggleMenu={toggleMenu} />
         </div>
-        <div className='block sm:hidden cursor-pointer'>
+        <div className="block sm:hidden cursor-pointer">
           <Image
             onClick={toggleMenu}
-            src='/icons/menu.svg'
-            alt='menu'
+            src="/icons/menu.svg"
+            alt="menu"
             width={30}
             height={30}
           />
@@ -46,7 +46,7 @@ const Navbar = () => {
           <Fade
             duration={300}
             delay={100}
-            className='rounded-b-3xl absolute py-20 top-0 flex justify-center items-center  left-0 right-0 bg-[#000000E6] z-20'
+            className="rounded-b-3xl absolute py-20 top-0 flex justify-center items-center  left-0 right-0 bg-[#000000E6] z-20"
           >
             <div ref={refMenu}>
               <ContentSidebar toggleMenu={toggleMenu} />
@@ -60,31 +60,37 @@ const Navbar = () => {
 
 const ContentSidebar = ({ toggleMenu }) => {
   return (
-    <div className='items-center flex-col sm:flex-row flex'>
-      <div className='block sm:hidden lg:block'>
-      </div>
-      <Link href='/#about'>
+    <div className="items-center flex-col sm:flex-row flex">
+      <div className="block sm:hidden lg:block"></div>
+      <Link href="/#about">
         <a
           onClick={toggleMenu}
-          className='mb-3 sm:mb-0 mt-4 sm:mt-0 ml-0 sm:ml-7'
+          className="mb-3 sm:mb-0 mt-4 sm:mt-0 ml-0 sm:ml-7"
         >
           About
         </a>
       </Link>
-      <Link href='/#team'>
-        <a onClick={toggleMenu} className='mb-3 sm:mb-0 ml-0 sm:ml-7'>
+      <Link href="/#team">
+        <a onClick={toggleMenu} className="mb-3 sm:mb-0 ml-0 sm:ml-7">
           Team
         </a>
       </Link>
-      <Link href='/#faq'>
+      <Link href="/#faq">
         <a
           onClick={toggleMenu}
-          className='mb-3 sm:mb-0 ml-0 sm:ml-7 mr-0 sm:mr-7'
+          className="mb-3 sm:mb-0 ml-0 sm:ml-7 mr-0 sm:mr-7"
         >
           FAQ
         </a>
       </Link>
-      <Button isTarget isLink href={'https://discord.gg/ttYFsAwKhY'} variant={'outline-primary'}>Join Discord</Button>
+      <Button
+        isTarget
+        isLink
+        href={"https://discord.gg/ttYFsAwKhY"}
+        variant={"outline-primary"}
+      >
+        Join Discord
+      </Button>
     </div>
   );
 };

@@ -1,12 +1,12 @@
 import { Footer, Navbar } from "@/components";
 import React from "react";
-import LeaderboardX from "@/components/LeaderboardX";
+import TeamX from "@/components/TeamX";
 
 const Home = () => {
   return (
     <div className="h-full main_bg text-white overflow-hidden" id="top">
       <Navbar />
-      <LeaderboardX />
+      <TeamX />
       <Footer />
     </div>
   );

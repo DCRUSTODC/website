@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import { Container, Logo } from '.';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { Container, Logo } from ".";
 
 const Footer = () => {
   function scrollToTop() {
@@ -9,90 +9,85 @@ const Footer = () => {
     document.documentElement.scrollTop = 0;
   }
   const ig = () => {
-    window.location.href = 'https://instagram.com/dcrustodc';
-  }
+    window.location.href = "https://instagram.com/dcrustodc";
+  };
   const discord = () => {
-    window.location.href = 'https://discord.gg/ttYFsAwKhY';
-  }
+    window.location.href = "https://discord.gg/ttYFsAwKhY";
+  };
   const yt = () => {
-    window.location.href = 'https://www.theverge.com/tech';
-  }
+    window.location.href = "https://www.theverge.com/tech";
+  };
   return (
-    <Container className={'pb-10'}>
-      <div className='flex flex-col lg:flex-row mb-16'>
-        <div className='w-[300px] mb-10 lg:mb-0 mr-10 lg:mr-28'>
+    <Container className={"pb-10"}>
+      <div className="flex flex-col lg:flex-row mb-16">
+        <div className="w-[300px] mb-10 lg:mb-0 mr-10 lg:mr-28">
           <Logo />
-          <p className='mt-5'>
-            An open-source platform by the students of DCRUST for welfare of the open-source community. <br /> <br />
+          <p className="mt-5">
+            An open-source platform by the students of DCRUST for welfare of the
+            open-source community. <br /> <br />
             We thrive for PRs.
           </p>
         </div>
-        <div className='flex-1 grid grid-cols-2 md:grid-cols-3 gap-4'>
+        <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-4">
           <div>
-            <p className='font-bold text-xl mb-5'>About</p>
-            <div className='flex flex-col'>
-              <Link href='/'>
-                <a className='mb-4 opacity-50'>Course</a>
+            <p className="font-bold text-xl mb-5">About</p>
+            <div className="flex flex-col">
+              <Link href="/team#head">
+                <a className="mb-4 opacity-50">Our Team</a>
               </Link>
-              <Link href='/'>
-                <a className='mb-4 opacity-50'>Resource</a>
+              <Link href="https://docs.google.com/document/d/1_qWh5aL0p0PyJG7bLfGjoH0jenzw-qRXlmFloYEJZIY/edit?usp=sharing">
+                <a className="mb-4 opacity-50">Resources</a>
               </Link>
-              <Link href='/'>
-                <a className='mb-4 opacity-50'>Term & Condition</a>
-              </Link>
-              <Link href='/'>
-                <a className='mb-4 opacity-50'>FAQ</a>
+              <Link href="/#faq">
+                <a className="mb-4 opacity-50">FAQ</a>
               </Link>
             </div>
           </div>
           <div>
-            <p className='font-bold text-xl mb-5'>Company</p>
-            <div className='flex flex-col'>
-              <Link href='/'>
-                <a className='mb-4 opacity-50'>Our Team</a>
+            <p className="font-bold text-xl mb-5">Happenings</p>
+            <div className="flex flex-col">
+              <Link href="/events">
+                <a className="mb-4 opacity-50">Events</a>
               </Link>
-              <Link href='/'>
-                <a className='mb-4 opacity-50'>Partner With Us</a>
+              <Link href="/">
+                <a className="mb-4 opacity-50">Partner With Us</a>
               </Link>
-              <Link href='/'>
-                <a className='mb-4 opacity-50'>Privacy & Policy</a>
-              </Link>
-              <Link href='/'>
-                <a className='mb-4 opacity-50'>Features</a>
+              <Link href="/">
+                <a className="mb-4 opacity-50">Features</a>
               </Link>
             </div>
           </div>
           <div>
-            <p className='font-bold text-xl mb-5'>Contact</p>
-            <div className='flex flex-col'>
-              <Link href='mailto:dcrustodc@gmail.com'>
-                <a className='mb-5 opacity-50'>dcrustodc@gmail.com</a>
+            <p className="font-bold text-xl mb-5">Contact</p>
+            <div className="flex flex-col">
+              <Link href="mailto:dcrustodc@gmail.com">
+                <a className="mb-5 opacity-50">dcrustodc@gmail.com</a>
               </Link>
-              <div className='flex items-center'>
-                <div className='mr-10 cursor-pointer'>
+              <div className="flex items-center">
+                <div className="mr-10 cursor-pointer">
                   <Image
-                    src='/icons/discord.svg'
+                    src="/icons/discord.svg"
                     width={34}
                     height={34}
-                    alt='discord'
+                    alt="discord"
                     onClick={discord}
                   />
                 </div>
-                <div className='mr-10 cursor-pointer'>
+                <div className="mr-10 cursor-pointer">
                   <Image
-                    src='/icons/instagram.svg'
+                    src="/icons/instagram.svg"
                     width={28}
                     height={28}
-                    alt='instagram'
+                    alt="instagram"
                     onClick={ig}
                   ></Image>
                 </div>
-                <div className='cursor-pointer'>
+                <div className="cursor-pointer">
                   <Image
-                    src='/icons/youtube.svg'
+                    src="/icons/youtube.svg"
                     width={30}
                     height={30}
-                    alt='youtube'
+                    alt="youtube"
                     onClick={yt}
                   />
                 </div>
@@ -101,12 +96,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-center items-center mb-8'>
-        With love, Sambhav Saxena
+      <div className="flex justify-center items-center mb-8">
+        Love, Sambhav Saxena
       </div>
       <div
         onClick={scrollToTop}
-        className='animate-bounce  h-14 w-14 cursor-pointer shadow-lg shadow-[#671AE4]/40 rounded-full bg-gradient-to-b font-bold from-[#B75CFF] to-[#671AE4] mx-auto flex justify-center items-center'
+        className="animate-bounce  h-14 w-14 cursor-pointer shadow-lg shadow-[#671AE4]/40 rounded-full bg-gradient-to-b font-bold from-[#B75CFF] to-[#671AE4] mx-auto flex justify-center items-center"
       >
         UP
       </div>
