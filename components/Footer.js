@@ -50,10 +50,10 @@ const Footer = () => {
                 <a className="mb-4 opacity-50">Events</a>
               </Link>
               <Link href="/">
-                <a className="mb-4 opacity-50">Partner With Us</a>
+                <a className="mb-4 opacity-50">Open source</a>
               </Link>
               <Link href="/">
-                <a className="mb-4 opacity-50">Features</a>
+                <a className="mb-4 opacity-50">Innovations</a>
               </Link>
             </div>
           </div>

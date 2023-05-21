@@ -5,7 +5,7 @@ export const list_team_members = [
     image: "/team/me.jpeg",
     dis: "The idea of an open source community within an institution is itself so readily acceptable by everyone we have been talking to, why not just implement the same in actual? Just thought.",
     link: "https://github.com/sambhavsaxena",
-    post: "Nobody",
+    post: "Duke",
     isFront: true,
   },
   {
