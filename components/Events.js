@@ -1,5 +1,4 @@
 import { events_list } from "@/assets/data/events";
-import React from "react";
 import { Container } from ".";
 import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter } from "@/keyframes";
@@ -8,7 +7,7 @@ const Events = () => {
   return (
     <Container className={"mb-44"} style={{ marginTop: "100px" }}>
       <center>
-        <h2 className="text-2xl font-bold text-center mb-5" id="event">
+        <h2 className="text-3xl font-bold text-center mb-5" id="event">
           Recent events
         </h2>
       </center>
@@ -25,14 +24,14 @@ const Events = () => {
               style={{
                 display: "grid",
                 gap: "10px",
-                gridTemplateColumns: "repeat(3, minmax(0,1fr))",
+                gridTemplateColumns: "repeat(8, minmax(0,1fr))",
                 border: "0.1px solid #B0B9DD",
               }}
             >
               <div
                 style={{
                   padding: "0.4rem",
-                  gridColumn: "span 1",
+                  gridColumn: "span 3",
                 }}
               >
                 {item.title}
@@ -40,7 +39,7 @@ const Events = () => {
               <div
                 style={{
                   padding: "0.4rem",
-                  gridColumn: "span 1",
+                  gridColumn: "span 3",
                 }}
               >
                 {item.date}
@@ -48,7 +47,7 @@ const Events = () => {
               <div
                 style={{
                   padding: "0.4rem",
-                  gridColumn: "span 1",
+                  gridColumn: "span 2",
                 }}
               >
                 <a href={item.url}>URL</a>

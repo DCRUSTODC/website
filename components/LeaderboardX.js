@@ -1,4 +1,4 @@
-import ranks from "@/assets/data/ranks";
+import ranks from "@/assets/data/ranks/ranks_2";
 import React from "react";
 import { Container } from ".";
 import { Reveal } from "react-awesome-reveal";
