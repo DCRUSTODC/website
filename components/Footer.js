@@ -36,7 +36,9 @@ const Footer = () => {
                 <a className="mb-4 opacity-50">Our Team</a>
               </Link>
               <Link href="https://docs.google.com/document/d/1W3NY4c8LYlDCMZtmQvVNlxSR20xvpybCfZfSRwEprjY/edit?usp=sharing">
-                <a className="mb-4 opacity-50">Resources</a>
+                <a className="mb-4 opacity-50" target={"_blank"}>
+                  Resources
+                </a>
               </Link>
               <Link href="/#faq">
                 <a className="mb-4 opacity-50">FAQ</a>
@@ -46,13 +48,15 @@ const Footer = () => {
           <div>
             <p className="font-bold text-xl mb-5">Happenings</p>
             <div className="flex flex-col">
-              <Link href="/events">
+              <Link href="/events#event">
                 <a className="mb-4 opacity-50">Events</a>
               </Link>
               <Link href="https://github.com/DCRUSTODC">
-                <a className="mb-4 opacity-50">Open source</a>
+                <a className="mb-4 opacity-50" target={"_blank"}>
+                  Open source
+                </a>
               </Link>
-              <Link href="/">
+              <Link href="/innovations">
                 <a className="mb-4 opacity-50">Innovations</a>
               </Link>
             </div>
