@@ -57,8 +57,8 @@ const Hero = () => {
           </Reveal>
           <Reveal keyframes={fadeInLeft} duration={500} delay={600}>
             <div>
-              <p className="font-bold text-2xl mb-1">100+</p>
-              <p className="opacity-50 ">contributors</p>
+              <p className="font-bold text-2xl mb-1">600+</p>
+              <p className="opacity-50 ">members</p>
             </div>
           </Reveal>
         </div>
