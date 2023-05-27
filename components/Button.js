@@ -10,7 +10,7 @@ const Button = ({
   onClick,
   children,
 }) => {
-  let rootClass = 'py-2 px-5 text-center rounded-xl ';
+  let rootClass = 'py-2 px-6 text-center rounded-xl ';
   if (variant === 'primary') {
     rootClass += 'btn_primary text-white shadow-sm';
   } else if (variant === 'outlinePrimary') {
