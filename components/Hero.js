@@ -31,7 +31,7 @@ const Hero = () => {
               isLink
               href={"/#about"}
               className={"mr-3"}
-              variant={"primary"}
+              variant={"secondary"}
             >
               Explore Now
             </Button>

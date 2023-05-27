@@ -27,16 +27,16 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="py-4 relative">
+    <div className="py-4 relative" onDoubleClick={closeMenu}>
       <Container className={"flex justify-between items-center"}>
         <Logo />
         <div className="hidden sm:block">
           <ContentSidebar toggleMenu={toggleMenu} />
         </div>
-        <div className="block sm:hidden cursor-pointer">
-          <Image
+        <div className="block sm:hidden cursor-pointer" style={{zIndex:"1000"}}>
+        <Image
             onClick={toggleMenu}
-            src="/icons/menu.svg"
+            src={menu ? "/icons/close.svg" : "/icons/menu.svg"}
             alt="menu"
             width={30}
             height={30}
