@@ -112,7 +112,7 @@ export const list_team_members = [
   {
     id: 12,
     username: "Aditi Dahiya",
-    image: "/team/aditi.jpeg",
+    image: "/team/aditi.png",
     dis: "I have learnt a lot from the communities like this and now it's time to be a part of one. I am excited to learn and grow along with everyone else around.",
     github: "https://github.com/ADITI-2003",
     linkedin: "https://www.linkedin.com/in/aditi-dahiya-4b9424249",
