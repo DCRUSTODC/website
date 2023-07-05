@@ -22,13 +22,8 @@
 
 .btn_primary_outline {
   background: transparent;
-<<<<<<< HEAD
-  border: 3px solid;
-  border-image:  linear-gradient(193deg, rgb(255, 79, 246) 15%, rgb(39, 185, 47) 89%);
-=======
   border-image: 3px solid
     linear-gradient(193deg, rgb(255, 79, 246) 15%, rgb(39, 185, 47) 89%);
->>>>>>> c210373 (added team member)
 }
 
 a:hover {
