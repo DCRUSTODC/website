@@ -14,8 +14,8 @@ const Footer = () => {
   const discord = () => {
     window.location.href = "https://discord.gg/ttYFsAwKhY";
   };
-  const yt = () => {
-    window.location.href = "https://www.theverge.com/tech";
+  const git = () => {
+    window.location.href = "https://github.com/DCRUSTODC";
   };
   return (
     <Container className={"pb-10"}>
@@ -88,11 +88,11 @@ const Footer = () => {
                 </div>
                 <div className="cursor-pointer">
                   <Image
-                    src="/icons/youtube.svg"
+                    src="/icons/github.svg"
                     width={30}
                     height={30}
                     alt="youtube"
-                    onClick={yt}
+                    onClick={git}
                   />
                 </div>
               </div>
