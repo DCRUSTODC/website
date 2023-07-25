@@ -1,21 +1,21 @@
-import ranks from "@/assets/data/ranks/ranks_2";
 import React from "react";
 import { Container } from ".";
 import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter } from "@/keyframes";
 import { Button } from ".";
+import contest from "@/assets/data/contests";
 
 const Leaderboard = () => {
   return (
     <Container className={"mb-44"}>
       <center>
         <h2 className="text-2xl font-bold text-center mb-5">
-          Top ranks in recent contests
+          Top ranks in previous contest
         </h2>
       </center>
       <hr />
       <div className="text-center mb-8 my-4">
-        {ranks
+        {contest[0].ranks
           .filter((curr) => curr.Rank <= 5 || curr.Rank == "Rank")
           .map((item, i) => (
             <Reveal

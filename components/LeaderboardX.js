@@ -1,25 +1,48 @@
-import ranks from "@/assets/data/ranks/ranks_2";
+import Box from "@mui/material/Box";
+import FormControl from "@mui/material/FormControl";
+import InputLabel from "@mui/material/InputLabel";
+import NativeSelect from "@mui/material/NativeSelect";
 import React from "react";
 import { Container } from ".";
 import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter } from "@/keyframes";
+import contest from "@/assets/data/contests";
 
 const LeaderboardX = () => {
+  const [test, setTest] = React.useState(contest[0].ranks);
   return (
     <Container className={"mb-44"} style={{ marginTop: "100px" }}>
       <center>
+        <Box sx={{ width: "25%" }} className="my-6">
+          <FormControl fullWidth>
+            <InputLabel variant="standard" htmlFor="uncontrolled-native">
+              Explore previous contests
+            </InputLabel>
+            <NativeSelect>
+              {contest.map((item, i) => (
+                <option
+                  key={item.contest}
+                  value={i}
+                  onClick={() => setTest(item.ranks)}
+                >
+                  {item.contest}
+                </option>
+              ))}
+            </NativeSelect>
+          </FormControl>
+        </Box>
         <h2 className="text-2xl font-bold text-center mb-5" id="standing">
-          Top ranks in recent contests
+          Top ranks in latest contests
         </h2>
       </center>
       <hr />
       <div className="text-center mb-8 my-4">
-        {ranks.map((item, i) => (
+        {test.map((item, i) => (
           <Reveal
             key={item.Rank}
             keyframes={fadeInDownShorter}
             duration={500}
-            delay={100 * (i + 1)}
+            delay={10 * (i + 1)}
           >
             <div
               style={{

@@ -8,7 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.2",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-awesome-reveal": "^3.8.1",
