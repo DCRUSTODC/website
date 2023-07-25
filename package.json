@@ -1,5 +1,5 @@
 {
-  "name": "psychoart",
+  "name": "dcrustodc-web",
   "private": true,
   "scripts": {
     "dev": "next dev",
