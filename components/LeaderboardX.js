@@ -13,23 +13,21 @@ const LeaderboardX = () => {
   return (
     <Container className={"mb-44"} style={{ marginTop: "100px" }}>
       <center>
-        <Box sx={{ width: "25%" }} className="my-6">
-          <FormControl fullWidth>
-            <InputLabel variant="standard" htmlFor="uncontrolled-native">
-              Explore previous contests
-            </InputLabel>
-            <NativeSelect>
-              {contest.map((item, i) => (
-                <option
-                  key={item.contest}
-                  value={i}
-                  onClick={() => setTest(item.ranks)}
-                >
-                  {item.contest}
-                </option>
-              ))}
-            </NativeSelect>
-          </FormControl>
+        <Box sx={{ width: "50%" }} className="my-6">
+          <InputLabel variant="standard" htmlFor="uncontrolled-native">
+            Explore previous contests
+          </InputLabel>
+          <NativeSelect>
+            {contest.map((item, i) => (
+              <option
+                key={item.contest}
+                value={i}
+                onClick={() => setTest(item.ranks)}
+              >
+                {item.contest}
+              </option>
+            ))}
+          </NativeSelect>
         </Box>
         <h2 className="text-2xl font-bold text-center mb-5" id="standing">
           Top ranks in latest contests

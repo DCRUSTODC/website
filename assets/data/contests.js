@@ -5,19 +5,19 @@ import c4 from "@/assets/data/ranks/ranks_4.json";
 
 const contest = [
   {
-    contest: "Weekly Contest 1",
+    contest: "Contest 1",
     ranks: c1,
   },
   {
-    contest: "Weekly Contest 2",
+    contest: "Contest 2",
     ranks: c2,
   },
   {
-    contest: "Weekly Contest 3",
+    contest: "Contest 3",
     ranks: c3,
   },
   {
-    contest: "Weekly Contest 4",
+    contest: "Contest 4",
     ranks: c4,
   },
 ];
