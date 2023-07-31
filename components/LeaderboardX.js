@@ -10,6 +10,11 @@ import contest from "@/assets/data/contests";
 
 const LeaderboardX = () => {
   const [test, setTest] = React.useState(contest[0].ranks);
+
+  const handleTestChange = (event) =>{
+    setTest(contest[event.target.value].ranks);
+  }
+
   return (
     <Container className={"mb-44"} style={{ marginTop: "100px" }}>
       <center>
@@ -17,15 +22,17 @@ const LeaderboardX = () => {
           <InputLabel variant="standard" htmlFor="uncontrolled-native">
             Explore previous contests
           </InputLabel>
-          <NativeSelect>
+          <NativeSelect onChange={handleTestChange} >
             {contest.map((item, i) => (
               <option
                 key={item.contest}
                 value={i}
-                onClick={() => setTest(item.ranks)}
+                // onClick={() => setTest(item.ranks)}
               >
                 {item.contest}
+               
               </option>
+              
             ))}
           </NativeSelect>
         </Box>
