@@ -45,7 +45,7 @@ const AboutUs = () => {
             agenda, interests everyone amongst the developers' community, and
             the students of DCRUST lacking behind is not a favourable sight.{" "}
           </p>
-          <p className="hidden lg:block mb-3 opacity-50">
+          <p className="lg:block mb-3 opacity-50">
             And hence, a group student developers decided to create an identity
             for their university, a place for the students and by the students
             of DCRUST. Started by{" "}
