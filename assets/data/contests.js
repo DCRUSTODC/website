@@ -2,6 +2,7 @@ import c1 from "@/assets/data/ranks/ranks_1.json";
 import c2 from "@/assets/data/ranks/ranks_2.json";
 import c3 from "@/assets/data/ranks/ranks_3.json";
 import c4 from "@/assets/data/ranks/ranks_4.json";
+import c5 from "@/assets/data/ranks/ranks_5.json";
 
 const contest = [
   {
@@ -19,6 +20,10 @@ const contest = [
   {
     contest: "Contest 4",
     ranks: c4,
+  },
+  {
+    contest: "Contest 5",
+    ranks: c5,
   },
 ];
 
