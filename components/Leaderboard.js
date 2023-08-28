@@ -59,7 +59,7 @@ const Leaderboard = () => {
           ))}
       </div>
       <div className="text-center">
-        <Button isLink href={"/standings#standing"} variant={"outline-primary"}>
+        <Button isLink href={"/standings"} variant={"outline-primary"}>
           Final standings
         </Button>
       </div>
