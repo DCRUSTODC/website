@@ -18,5 +18,15 @@
     "linkedin": "https://www.linkedin.com/in/ajkumar1205/",
     "post": "Development Lead",
     "isFront": true
+  },
+  {
+    "id": 3,
+    "username": "Lakshay Dureja",
+    "image": "/team/2025/Lakshay.jpg",
+    "dis": "fill your own description",
+    "github": "https://github.com/lakshaydureja",
+    "linkedin": "https://www.linkedin.com/in/lakshaydureja/",
+    "post": "Development Lead",
+    "isFront": true
   }
 ]
