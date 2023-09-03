@@ -18,5 +18,15 @@
     "linkedin": "https://www.linkedin.com/in/ajkumar1205/",
     "post": "Development Lead",
     "isFront": true
+  },
+   {
+    "id": 3,
+    "username": "Dhruv Khatter",
+    "image": "/team/2025/Dhruv.png",
+    "dis": "I am a passionate AI/ML enthusiast and a full-stack developer who possesses a unique blend of skills and interests, combining a deep fascination with artificial intelligence and machine learning with a strong foundation in full-stack web development.",
+    "github": "https://github.com/LearnWithDhruv",
+    "linkedin": "https://www.linkedin.com/in/dhruv-khatter-255459248/",
+    "post": "ML Lead",
+    "isFront": true
   }
 ]
