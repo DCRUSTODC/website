@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "username": "Aditi Dahiya",
+    "image": "/team/2025/aditi.png",
+    "dis": "fill your own description",
+    "github": "https://github.com/Aditi-Dahiya",
+    "linkedin": "https://www.linkedin.com/in/aditi-dahiya-4b9424249/",
+    "post": "ML Lead",
+    "isFront": true
+  },
+  {
+    "id": 2,
+    "username": "Ajay Thakur",
+    "image": "/team/2025/ajay.jpeg",
+    "dis": "fill your own description",
+    "github": "https://github.com/ajkumar1205",
+    "linkedin": "https://www.linkedin.com/in/ajkumar1205/",
+    "post": "Development Lead",
+    "isFront": true
+  }
+]

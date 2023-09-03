@@ -1,4 +1,4 @@
-import { list_team_members } from "@/assets/data/team";
+import { list_team_members } from "@/assets/data/teams";
 import React from "react";
 import { Container, Creator } from ".";
 import { Reveal } from "react-awesome-reveal";
