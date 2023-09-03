@@ -18,5 +18,16 @@
     "linkedin": "https://www.linkedin.com/in/ajkumar1205/",
     "post": "Development Lead",
     "isFront": true
-  }
+  },
+  {
+    "id": 3,
+    "username": "Dhruv Khatter",
+    "image": "/team/2025/Dhruv.png",
+    "dis": "fill your own description",
+    "github": "https://github.com/LearnWithDhruv",
+    "linkedin": "https://www.linkedin.com/in/dhruv-khatter-255459248/",
+    "post": "ML Lead",
+    "isFront": true
+  } 
+  
 ]
