@@ -18,5 +18,15 @@
     "linkedin": "https://www.linkedin.com/in/ajkumar1205/",
     "post": "Development Lead",
     "isFront": true
+  },
+  {
+    "id": 3,
+    "username": "Aditya Bansal",
+    "image": "/team/2025/Aditya.jpg",
+    "dis": "I am a CP enthusiast , solving real life inspired problems which requires an insightful logic to every bit of concept entices me more than anything",
+    "github": "https://github.com/AdityaBansal114",
+    "linkedin": "https://www.linkedin.com/in/aditya-bansal-3016a2227/",
+    "post": "CP Lead",
+    "isFront": true
   }
 ]
