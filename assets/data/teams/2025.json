@@ -22,7 +22,7 @@
   {
     "id": 3,
     "username": "Aditya Bansal",
-    "image": "/team/2025/Aditya.jpg",
+    "image": "/team/2025/aditya.jpg",
     "dis": "I am a CP enthusiast , solving real life inspired problems which requires an insightful logic to every bit of concept entices me more than anything",
     "github": "https://github.com/AdityaBansal114",
     "linkedin": "https://www.linkedin.com/in/aditya-bansal-3016a2227/",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "username": "Lakshay Dureja",
-    "image": "/team/2025/Lakshay.jpg",
+    "image": "/team/2025/lakshay.jpg",
     "dis": "fill your own description",
     "github": "https://github.com/lakshaydureja",
     "linkedin": "https://www.linkedin.com/in/lakshaydureja/",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "username": "Shambhavi Thakur",
-    "image": "/team/2025/shambhavi.jpeg",
+    "image": "/team/2025/shambhavi.png",
     "dis": "A passionate programmer, with a zeal to learn something new everday, I have worked in the fields of Game development and Frontend Web development and now I'm exploring the fascinating realms of Open Source.",
     "github": "https://github.com/codingercat",
     "linkedin": "https://www.linkedin.com/in/shambhavi-thakur1/",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "username": "Dhruv Khatter",
-    "image": "/team/2025/Dhruv.png",
+    "image": "/team/2025/dhruv.jpg",
     "dis": "I am a passionate AI/ML enthusiast and a full-stack developer who possesses a unique blend of skills and interests, combining a deep fascination with artificial intelligence and machine learning with a strong foundation in full-stack web development.",
     "github": "https://github.com/LearnWithDhruv",
     "linkedin": "https://www.linkedin.com/in/dhruv-khatter-255459248/",
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "username": "Dhiraj",
-    "image": "/team/2025/dhiraj.png",
+    "image": "/team/2025/dhiraj.jpg",
     "dis": "I'm a passionate competitive programmer with a knack for solving complex algorithmic challenges. With a strong foundation in data structures and algorithms, I thrive in the competitive coding arena, constantly improving my problem-solving skills. I'm dedicated to pushing the boundaries of what's possible in the world of coding competitions.",
     "github": "https://github.com/dhirajmehta720",
     "linkedin": "https://www.linkedin.com/in/dhiraj-mehta-847105228",
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "username": "Himanshu",
-    "image": "/team/2025/himanshu.JPG",
+    "image": "/team/2025/himanshu.jpg",
     "dis": "An Open Sorcerer and Web Enthusiast who loves diving in technical communities and helping out newbies. We can also play Chess and talk about cats.",
     "github": "https://github.com/itshypon",
     "linkedin": "https://www.linkedin.com/in/hypon/",
