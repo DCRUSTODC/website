@@ -31,7 +31,7 @@ const Team = () => {
           ))}
       </div>
       <div className="text-center" style={{ marginTop: "5%" }}>
-        <Button isLink href={"/team"} variant={"outline-primary"}>
+        <Button isLink href={"/team#head"} variant={"outline-primary"}>
           View All Members
         </Button>
       </div>

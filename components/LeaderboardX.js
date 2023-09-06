@@ -1,6 +1,9 @@
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
-import NativeSelect from "@mui/material/NativeSelect";
+// import NativeSelect from "@mui/material/NativeSelect";
+import Select from "@mui/material/Select";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
 import React, { useState } from "react";
 import { Container } from ".";
 import { Reveal } from "react-awesome-reveal";
@@ -18,16 +21,24 @@ const LeaderboardX = () => {
     <Container className={"mb-44"} style={{ marginTop: "100px" }}>
       <center>
         <Box sx={{ width: "50%" }} className="my-6">
-          <InputLabel variant="standard" htmlFor="uncontrolled-native">
-            Explore previous contests
+          <h3 className="text-white text-2xl font-bold relative -top-2">Explore previous contests</h3>
+          <FormControl className="w-52">
+          <InputLabel id="contest-select">
+            Contest
           </InputLabel>
-          <NativeSelect onChange={handleTestChange}>
+          <Select 
+          onChange={handleTestChange}
+          size="small"
+          label="Contest"
+          labelId="contest-select"
+          >
             {contest.map((item, i) => (
-              <option key={item.contest} value={i}>
+              <MenuItem key={item.contest} value={i}>
                 {item.contest}
-              </option>
+              </MenuItem>
             ))}
-          </NativeSelect>
+          </Select>
+          </FormControl>
         </Box>
         <h2 className="text-2xl font-bold text-center mb-5" id="standing">
           Top ranks in latest contests
