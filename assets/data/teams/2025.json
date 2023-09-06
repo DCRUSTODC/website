@@ -1,36 +1,26 @@
 [
   {
     "id": 1,
-    "username": "Aditi Dahiya",
-    "image": "/team/2025/aditi.png",
-    "dis": "Being an explorer always makes one get to the other side of the Odyssey. Communities like this have helped me learn and grow. Open Source being the legacy, here the treasure begins...",
-    "github": "https://github.com/Aditi-Dahiya",
-    "linkedin": "https://www.linkedin.com/in/aditi-dahiya-4b9424249/",
-    "post": "ML Lead",
-    "isFront": true
-  },
-  {
-    "id": 2,
     "username": "Ajay Thakur",
     "image": "/team/2025/ajay.jpeg",
-    "dis": "fill your own description",
+    "dis": "Helping others while you learn is the best possible way to get the real  experience what you gonna do with your learning. Motivated and excited to learn from and give back to the community.",
     "github": "https://github.com/ajkumar1205",
     "linkedin": "https://www.linkedin.com/in/ajkumar1205/",
     "post": "Development Lead",
     "isFront": true
   },
   {
-    "id": 3,
+    "id": 2,
     "username": "Aditya Bansal",
     "image": "/team/2025/aditya.jpg",
     "dis": "I am a CP enthusiast , solving real life inspired problems which requires an insightful logic to every bit of concept entices me more than anything",
     "github": "https://github.com/AdityaBansal114",
     "linkedin": "https://www.linkedin.com/in/aditya-bansal-3016a2227/",
     "post": "CP Lead",
-    "isFront": true
+    "isFront": false
   },
   {
-    "id": 4,
+    "id": 3,
     "username": "Lakshay Dureja",
     "image": "/team/2025/lakshay.jpg",
     "dis": "fill your own description",
@@ -40,13 +30,23 @@
     "isFront": false
   },
   {
-    "id": 5,
+    "id": 4,
     "username": "Shambhavi Thakur",
     "image": "/team/2025/shambhavi.png",
     "dis": "A passionate programmer, with a zeal to learn something new everday, I have worked in the fields of Game development and Frontend Web development and now I'm exploring the fascinating realms of Open Source.",
     "github": "https://github.com/codingercat",
     "linkedin": "https://www.linkedin.com/in/shambhavi-thakur1/",
     "post": "Open Source Lead",
+    "isFront": false
+  },
+  {
+    "id": 5,
+    "username": "Aditi Dahiya",
+    "image": "/team/2025/aditi.png",
+    "dis": "Being an explorer always makes one get to the other side of the Odyssey. Communities like this have helped me learn and grow. Open Source being the legacy, here the treasure begins...",
+    "github": "https://github.com/Aditi-Dahiya",
+    "linkedin": "https://www.linkedin.com/in/aditi-dahiya-4b9424249/",
+    "post": "ML Lead",
     "isFront": false
   },
   {
@@ -67,7 +67,7 @@
     "github": "https://github.com/dhirajmehta720",
     "linkedin": "https://www.linkedin.com/in/dhiraj-mehta-847105228",
     "post": "CP Lead",
-    "isFront": false
+    "isFront": true
   },
   {
     "id": 8,
@@ -77,6 +77,6 @@
     "github": "https://github.com/itshypon",
     "linkedin": "https://www.linkedin.com/in/hypon/",
     "post": "Open Source Lead",
-    "isFront": false
+    "isFront": true
   }
 ]

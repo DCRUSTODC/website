@@ -1,4 +1,4 @@
-import { list_team_members } from "@/assets/data/team";
+import teams from "@/assets/data/teams";
 import React from "react";
 import { Container, Creator } from ".";
 import { Reveal } from "react-awesome-reveal";
@@ -17,7 +17,7 @@ const Team = () => {
         </Reveal>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {list_team_members
+        {teams[0].data
           .filter((curr) => curr.isFront === true)
           .map((item, i) => (
             <Reveal
@@ -31,7 +31,7 @@ const Team = () => {
           ))}
       </div>
       <div className="text-center" style={{ marginTop: "5%" }}>
-        <Button isLink href={"/team#head"} variant={"outline-primary"}>
+        <Button isLink href={"/team"} variant={"outline-primary"}>
           View All Members
         </Button>
       </div>

@@ -1,19 +1,18 @@
 import Box from "@mui/material/Box";
-import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 import NativeSelect from "@mui/material/NativeSelect";
-import React from "react";
+import React, { useState } from "react";
 import { Container } from ".";
 import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter } from "@/keyframes";
 import contest from "@/assets/data/contests";
 
 const LeaderboardX = () => {
-  const [test, setTest] = React.useState(contest[0].ranks);
+  const [test, setTest] = useState(contest[0].ranks);
 
-  const handleTestChange = (event) =>{
+  const handleTestChange = (event) => {
     setTest(contest[event.target.value].ranks);
-  }
+  };
 
   return (
     <Container className={"mb-44"} style={{ marginTop: "100px" }}>
@@ -22,17 +21,11 @@ const LeaderboardX = () => {
           <InputLabel variant="standard" htmlFor="uncontrolled-native">
             Explore previous contests
           </InputLabel>
-          <NativeSelect onChange={handleTestChange} >
+          <NativeSelect onChange={handleTestChange}>
             {contest.map((item, i) => (
-              <option
-                key={item.contest}
-                value={i}
-                // onClick={() => setTest(item.ranks)}
-              >
+              <option key={item.contest} value={i}>
                 {item.contest}
-               
               </option>
-              
             ))}
           </NativeSelect>
         </Box>
