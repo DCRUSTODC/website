@@ -88,5 +88,15 @@
     "linkedin": "https://www.linkedin.com/in/mukul-bhardwaj-45473124a/",
     "post": "Management Lead",
     "isFront": false
+  },
+  {
+    "id": 10,
+    "username": "Muskan Singhal",
+    "image": "https://res.cloudinary.com/djzv2jzat/image/upload/v1694066093/muskan_pta4fb.jpg",
+    "dis": "Responsible for overseeing content creation and strategic management to drive organizational goals.",
+    "github": "https://github.com/muskansinghal26",
+    "linkedin": "https://www.linkedin.com/in/muskan-singhal-4a1115220",
+    "post": "Management Lead",
+    "isFront": false
   }
 ]
