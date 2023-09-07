@@ -78,5 +78,15 @@
     "linkedin": "https://linkedin.com/in/himanshu-rishi",
     "post": "Open source Lead",
     "isFront": false
+  },
+  {
+    "id": 9,
+    "username": "Parikshit Verma",
+    "image": "https://res.cloudinary.com/dqaw0myzk/image/upload/v1694073557/2024/parik_me6j0h.jpg",
+    "dis": "After working with a lot of professionals from not just from India but from around the planet, I realized the power of a community by actually being a part of one. Hence this.",
+    "github": "https://github.com/parik-shit",
+    "linkedin": "https://linkedin.com/in/parikshit-verma-598068201",
+    "post": "Design and Content Lead",
+    "isFront": false
   }
 ]
