@@ -23,7 +23,7 @@
     "id": 3,
     "username": "Lakshay Dureja",
     "image": "https://res.cloudinary.com/dqaw0myzk/image/upload/v1694002024/2025/lakshay_svhe3w.jpg",
-    "dis": "fill your own description",
+    "dis": "As a Dev Lead, I believe I can make a significant impact by guiding and inspiring a group of like-minded individuals to collaborate on projects that address real-world issues and benefit the community as a whole.",
     "github": "https://github.com/lakshaydureja",
     "linkedin": "https://www.linkedin.com/in/lakshaydureja/",
     "post": "Development Lead",
@@ -78,5 +78,25 @@
     "linkedin": "https://www.linkedin.com/in/hypon/",
     "post": "Open Source Lead",
     "isFront": true
+  },
+  {
+    "id": 9,
+    "username": "Mukul Bhardwaj",
+    "image": "https://res.cloudinary.com/dqaw0myzk/image/upload/v1694073912/2025/mukul_ns8xdb.jpg",
+    "dis": "I've learned and gained experience in this field for the past 1 year. Though not a professional, but yes, enough to guide you throughout this journey in this field.",
+    "github": "https://github.com/mb-008",
+    "linkedin": "https://www.linkedin.com/in/mukul-bhardwaj-45473124a/",
+    "post": "Management Lead",
+    "isFront": false
+  },
+  {
+    "id": 10,
+    "username": "Muskan Singhal",
+    "image": "https://res.cloudinary.com/dqaw0myzk/image/upload/v1694073519/2025/muskan_yh4zc4.jpg",
+    "dis": "Responsible for overseeing content creation and strategic management to drive organizational goals.",
+    "github": "https://github.com/muskansinghal26",
+    "linkedin": "https://www.linkedin.com/in/muskan-singhal-4a1115220",
+    "post": "Management Lead",
+    "isFront": false
   }
 ]
