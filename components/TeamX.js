@@ -25,26 +25,23 @@ const TeamX = () => {
           </p>
           <center>
             <Box sx={{ width: "50%" }} className="my-6">
-            <h3 className="text-xl text-white font-bold relative -top-2">
-            Explore previous teams
-            </h3>
-              {/* <InputLabel variant="standard" htmlFor="uncontrolled-native">
+              <h3 className="text-xl text-white font-bold relative -top-2">
                 Explore previous teams
-              </InputLabel> */}
-            <FormControl className="w-52" size="small" >
-              <InputLabel id="team-label">Team</InputLabel>
-              <Select 
-              onChange={handleTestChange}
-              label="Team"
-              labelId="team-label"
-              >
-                {teams.map((item, i) => (
-                  <MenuItem key={item.contest} value={i}  >
-                    {item.contest}
-                  </MenuItem>
-                ))}
-              </Select>
-            </FormControl>
+              </h3>
+              <FormControl className="w-52" size="small">
+                <InputLabel id="team-label">Team</InputLabel>
+                <Select
+                  onChange={handleTestChange}
+                  label="Team"
+                  labelId="team-label"
+                >
+                  {teams.map((item, i) => (
+                    <MenuItem key={item.contest} value={i}>
+                      {item.contest}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
             </Box>
           </center>
         </Reveal>
