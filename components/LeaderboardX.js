@@ -20,8 +20,11 @@ const LeaderboardX = () => {
   return (
     <Container className={"mb-44"} style={{ marginTop: "100px" }}>
       <center>
+        <h2 className="text-3xl font-bold text-center mb-5 relative -top-1" id="standing">
+          Top ranks in latest contests
+        </h2>
         <Box sx={{ width: "50%" }} className="my-6">
-          <h3 className="text-white text-2xl font-bold relative -top-2">Explore previous contests</h3>
+          <h3 className="text-white text-xl font-bold relative -top-2">Explore previous contests</h3>
           <FormControl className="w-52">
           <InputLabel id="contest-select">
             Contest
@@ -40,9 +43,6 @@ const LeaderboardX = () => {
           </Select>
           </FormControl>
         </Box>
-        <h2 className="text-2xl font-bold text-center mb-5" id="standing">
-          Top ranks in latest contests
-        </h2>
       </center>
       <hr />
       <div className="text-center mb-8 my-4">
