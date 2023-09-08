@@ -1,6 +1,9 @@
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
-import NativeSelect from "@mui/material/NativeSelect";
+// import NativeSelect from "@mui/material/NativeSelect";
+import Select from "@mui/material/Select";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
 import teams from "@/assets/data/teams";
 import React, { useState } from "react";
 import { Container, Creator } from ".";
@@ -22,16 +25,26 @@ const TeamX = () => {
           </p>
           <center>
             <Box sx={{ width: "50%" }} className="my-6">
-              <InputLabel variant="standard" htmlFor="uncontrolled-native">
+            <h3 className="text-xl text-white font-bold relative -top-2">
+            Explore previous teams
+            </h3>
+              {/* <InputLabel variant="standard" htmlFor="uncontrolled-native">
                 Explore previous teams
-              </InputLabel>
-              <NativeSelect onChange={handleTestChange}>
+              </InputLabel> */}
+            <FormControl className="w-52" size="small" >
+              <InputLabel id="team-label">Team</InputLabel>
+              <Select 
+              onChange={handleTestChange}
+              label="Team"
+              labelId="team-label"
+              >
                 {teams.map((item, i) => (
-                  <option key={item.contest} value={i}>
+                  <MenuItem key={item.contest} value={i}  >
                     {item.contest}
-                  </option>
+                  </MenuItem>
                 ))}
-              </NativeSelect>
+              </Select>
+            </FormControl>
             </Box>
           </center>
         </Reveal>
