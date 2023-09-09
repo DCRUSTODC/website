@@ -8,39 +8,43 @@ import React, { useState } from "react";
 import { Container } from ".";
 import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter } from "@/keyframes";
-import contest from "@/assets/data/contests";
+import contests from "@/assets/data/contests";
 
 const LeaderboardX = () => {
-  const [test, setTest] = useState(contest[0].ranks);
+  const [test, setTest] = useState(contests[0].ranks);
 
   const handleTestChange = (event) => {
-    setTest(contest[event.target.value].ranks);
+    setTest(contests[event.target.value].ranks);
   };
 
   return (
     <Container className={"mb-44"} style={{ marginTop: "100px" }}>
       <center>
-        <h2 className="text-3xl font-bold text-center mb-5 relative -top-1" id="standing">
+        <h2
+          className="text-3xl font-bold text-center mb-5 relative -top-1"
+          id="standing"
+        >
           Top ranks in latest contests
         </h2>
         <Box sx={{ width: "50%" }} className="my-6">
-          <h3 className="text-white text-xl font-bold relative -top-2">Explore previous contests</h3>
+          <h3 className="text-white text-xl font-bold relative -top-2">
+            Explore previous contests
+          </h3>
           <FormControl className="w-52">
-          <InputLabel id="contest-select">
-            Contest
-          </InputLabel>
-          <Select 
-          onChange={handleTestChange}
-          size="small"
-          label="Contest"
-          labelId="contest-select"
-          >
-            {contest.map((item, i) => (
-              <MenuItem key={item.contest} value={i}>
-                {item.contest}
-              </MenuItem>
-            ))}
-          </Select>
+            <InputLabel id="contest-select">Contest</InputLabel>
+            <Select
+              onChange={handleTestChange}
+              defaultValue={0}
+              size="small"
+              label="Contest"
+              labelId="contest-select"
+            >
+              {contests.map((item, i) => (
+                <MenuItem key={item.name} value={i}>
+                  {item.name}
+                </MenuItem>
+              ))}
+            </Select>
           </FormControl>
         </Box>
       </center>

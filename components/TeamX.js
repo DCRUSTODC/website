@@ -11,9 +11,9 @@ import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter, fadeInDownShorter2 } from "@/keyframes";
 
 const TeamX = () => {
-  const [currentTeam, setCurrentTeam] = useState(teams[0].data);
+  const [currentTeam, setCurrentTeam] = useState(teams[0]);
   const handleTestChange = (event) => {
-    setCurrentTeam(teams[event.target.value].data);
+    setCurrentTeam(teams[event.target.value]);
   };
   return (
     <Container className={"mb-44"} id={"head"} style={{ marginTop: "5%" }}>
@@ -32,12 +32,13 @@ const TeamX = () => {
                 <InputLabel id="team-label">Team</InputLabel>
                 <Select
                   onChange={handleTestChange}
+                  defaultValue={0}
                   label="Team"
                   labelId="team-label"
                 >
                   {teams.map((item, i) => (
-                    <MenuItem key={item.contest} value={i}>
-                      {item.contest}
+                    <MenuItem key={item.batch} value={i}>
+                      {item.batch}
                     </MenuItem>
                   ))}
                 </Select>
@@ -47,7 +48,7 @@ const TeamX = () => {
         </Reveal>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {currentTeam.map((item, i) => (
+        {currentTeam.data.map((item, i) => (
           <Reveal
             key={i}
             keyframes={fadeInDownShorter}

@@ -3,7 +3,7 @@ import { Container } from ".";
 import { Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter } from "@/keyframes";
 import { Button } from ".";
-import contest from "@/assets/data/contests";
+import contests from "@/assets/data/contests";
 
 const Leaderboard = () => {
   return (
@@ -15,7 +15,7 @@ const Leaderboard = () => {
       </center>
       <hr />
       <div className="text-center mb-8 my-4">
-        {contest[0].ranks
+        {contests[0].ranks
           .filter((curr) => curr.Rank <= 5 || curr.Rank == "Rank")
           .map((item, i) => (
             <Reveal

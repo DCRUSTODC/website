@@ -4,27 +4,27 @@ import c3 from "@/assets/data/ranks/ranks_3.json";
 import c4 from "@/assets/data/ranks/ranks_4.json";
 import c5 from "@/assets/data/ranks/ranks_5.json";
 
-const contest = [
+const contests = [
   {
-    contest: "Contest 1",
+    name: "Contest 1",
     ranks: c1,
   },
   {
-    contest: "Contest 2",
+    name: "Contest 2",
     ranks: c2,
   },
   {
-    contest: "Contest 3",
+    name: "Contest 3",
     ranks: c3,
   },
   {
-    contest: "Contest 4",
+    name: "Contest 4",
     ranks: c4,
   },
   {
-    contest: "Contest 5",
+    name: "Contest 5",
     ranks: c5,
   },
 ];
 
-export default contest.reverse();
+export default contests.reverse();
