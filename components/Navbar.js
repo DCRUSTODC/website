@@ -83,14 +83,24 @@ const ContentSidebar = ({ toggleMenu }) => {
           FAQ
         </a>
       </Link>
+      <div style={{display:"flex", gap:"1rem"}}>
+      <Button
+        isTarget
+        isLink
+        href={"https://www.linkedin.com/company/dcrustodc"}
+        variant={"outline-primary"}
+        >
+        LinkedIn
+      </Button>
       <Button
         isTarget
         isLink
         href={"https://discord.gg/ttYFsAwKhY"}
         variant={"outline-primary"}
-      >
+        >
         Join Discord
       </Button>
+      </div>
     </div>
   );
 };
