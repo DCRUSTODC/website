@@ -2,7 +2,7 @@ import { Footer, Navbar } from "@/components";
 import React from "react";
 import TeamX from "@/components/TeamX";
 
-const Home = () => {
+const Team = () => {
   return (
     <div className="h-full main_bg text-white overflow-hidden" id="top">
       <Navbar />
@@ -12,4 +12,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Team;

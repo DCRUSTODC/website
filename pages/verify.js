@@ -1,15 +1,15 @@
 import { Footer, Navbar } from "@/components";
 import React from "react";
-import Innovations from "@/components/Innovations";
+import Verification from "@/components/Verification";
 
-const Innovation = () => {
+const Verify = () => {
   return (
     <div className="h-full main_bg text-white overflow-hidden" id="top">
       <Navbar />
-      <Innovations />
+      <Verification />
       <Footer />
     </div>
   );
 };
 
-export default Innovation;
+export default Verify;

@@ -7,17 +7,17 @@
     "github": "https://github.com/ajkumar1205",
     "linkedin": "https://www.linkedin.com/in/ajkumar1205/",
     "post": "Development Lead",
-    "isFront": true
+    "isFront": false
   },
   {
     "id": 2,
     "username": "Aditya Bansal",
     "image": "https://res.cloudinary.com/dqaw0myzk/image/upload/v1694002025/2025/aditya_na4vyl.jpg",
-    "dis": "I am a CP enthusiast , solving real life inspired problems which requires an insightful logic to every bit of concept entices me more than anything",
+    "dis": "I am a competitive programming enthusiast , solving real life inspired problems which requires an insightful logic to every bit of concept entices me more than anything",
     "github": "https://github.com/AdityaBansal114",
     "linkedin": "https://www.linkedin.com/in/aditya-bansal-3016a2227/",
-    "post": "CP Lead",
-    "isFront": false
+    "post": "Operations & CP Lead",
+    "isFront": true
   },
   {
     "id": 3,
@@ -46,8 +46,8 @@
     "dis": "Being an explorer always makes one get to the other side of the Odyssey. Communities like this have helped me learn and grow. Open Source being the legacy, here the treasure begins...",
     "github": "https://github.com/Aditi-Dahiya",
     "linkedin": "https://www.linkedin.com/in/aditi-dahiya-4b9424249/",
-    "post": "ML Lead",
-    "isFront": false
+    "post": "Operations & ML Lead",
+    "isFront": true
   },
   {
     "id": 6,
@@ -67,7 +67,7 @@
     "github": "https://github.com/dhirajmehta720",
     "linkedin": "https://www.linkedin.com/in/dhiraj-mehta-847105228",
     "post": "CP Lead",
-    "isFront": true
+    "isFront": false
   },
   {
     "id": 8,

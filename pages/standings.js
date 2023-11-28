@@ -2,7 +2,7 @@ import { Footer, Navbar } from "@/components";
 import React from "react";
 import LeaderboardX from "@/components/LeaderboardX";
 
-const Home = () => {
+const Standings = () => {
   return (
     <div className="h-full main_bg text-white overflow-hidden" id="top">
       <Navbar />
@@ -12,4 +12,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Standings;
