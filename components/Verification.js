@@ -1,8 +1,18 @@
 import { Container } from ".";
+import axios from "axios";
 
 const Verification = () => {
   const verifyCertificate = () => {
-    alert("Certificate verified successfully");
+    const cid = document.querySelector("input").value;
+    axios
+      .get(`https://ikigai-p9nl.onrender.com/api/certificate?cid=${cid}`)
+      .then((res) => {
+        alert("Certificate is valid");
+      })
+      .catch((err) => {
+        console.log(err);
+        alert("Certificate ID is invalid");
+      });
   };
 
   return (
@@ -23,7 +33,7 @@ const Verification = () => {
             style={{
               padding: "5px",
               borderRadius: "3px",
-              width: "40%",
+              width: "60%",
               color: "black",
               fontFamily: "monospace",
             }}

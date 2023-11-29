@@ -3,7 +3,7 @@ import { Button, Container } from ".";
 import { Slide, Reveal } from "react-awesome-reveal";
 import { fadeInDownShorter, fadeInLeft, fadeInUp } from "@/keyframes";
 import Image from "next/image";
-import herobg from "../assets/dcrustodc.svg";
+import herobg from "../assets/image.svg";
 
 const Hero = () => {
   return (
@@ -57,7 +57,7 @@ const Hero = () => {
           </Reveal>
           <Reveal keyframes={fadeInLeft} duration={500} delay={600}>
             <div>
-              <p className="font-bold text-2xl mb-1">600+</p>
+              <p className="font-bold text-2xl mb-1">1000+</p>
               <p className="opacity-50 ">members</p>
             </div>
           </Reveal>
@@ -65,10 +65,12 @@ const Hero = () => {
       </div>
       <div className="flex-1 mt-14 sm:mt-0" style={{ marginTop: "100px" }}>
         <Slide delay={200} triggerOnce>
-          <div className="relative w-full h-[400px] lg:h-[500px]">
+          <div
+            className="relative w-full h-[400px] lg:h-[500px]"
+            style={{ marginTop: "-16vh" }}
+          >
             <Image
               layout="responsive"
-              height={"200px"}
               objectFit="contain"
               objectPosition={"center"}
               src={herobg}

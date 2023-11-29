@@ -10,7 +10,6 @@ const Navbar = () => {
   const toggleMenu = () => setMenu(!menu);
   const closeMenu = () => setMenu(false);
   const refMenu = useRef(null);
-
   useEffect(() => {
     const handleClick = (e) => {
       if (refMenu.current) {
@@ -33,8 +32,11 @@ const Navbar = () => {
         <div className="hidden sm:block">
           <ContentSidebar toggleMenu={toggleMenu} />
         </div>
-        <div className="block sm:hidden cursor-pointer" style={{zIndex:"1000"}}>
-        <Image
+        <div
+          className="block sm:hidden cursor-pointer"
+          style={{ zIndex: "1000" }}
+        >
+          <Image
             onClick={toggleMenu}
             src={menu ? "/icons/close.svg" : "/icons/menu.svg"}
             alt="menu"
@@ -83,23 +85,23 @@ const ContentSidebar = ({ toggleMenu }) => {
           FAQ
         </a>
       </Link>
-      <div style={{display:"flex", gap:"1rem"}}>
-      <Button
-        isTarget
-        isLink
-        href={"https://www.linkedin.com/company/dcrustodc"}
-        variant={"outline-primary"}
+      <div style={{ display: "flex", gap: "1rem" }}>
+        <Button
+          isTarget
+          isLink
+          href={"https://www.linkedin.com/company/dcrustodc"}
+          variant={"outline-primary"}
         >
-        LinkedIn
-      </Button>
-      <Button
-        isTarget
-        isLink
-        href={"https://discord.gg/ttYFsAwKhY"}
-        variant={"outline-primary"}
+          LinkedIn
+        </Button>
+        <Button
+          isTarget
+          isLink
+          href={"https://discord.gg/ttYFsAwKhY"}
+          variant={"outline-primary"}
         >
-        Join Discord
-      </Button>
+          Join Discord
+        </Button>
       </div>
     </div>
   );

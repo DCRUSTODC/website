@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Container, Logo } from ".";
+import { Button, Container, Logo } from ".";
 
 const Footer = () => {
   function scrollToTop() {
@@ -43,21 +43,24 @@ const Footer = () => {
               <Link href="/#faq">
                 <a className="mb-4 opacity-50">FAQ</a>
               </Link>
+              <Link href="/verify">
+                <a className="mb-5 opacity-50">Verify certificates</a>
+              </Link>
             </div>
           </div>
           <div>
             <p className="font-bold text-xl mb-5">Happenings</p>
             <div className="flex flex-col">
-              <Link href="/events#event">
+              <Link href="/events">
                 <a className="mb-4 opacity-50">Events</a>
+              </Link>
+              <Link href="/innovations">
+                <a className="mb-4 opacity-50">Innovations</a>
               </Link>
               <Link href="https://github.com/DCRUSTODC">
                 <a className="mb-4 opacity-50" target={"_blank"}>
                   Open source
                 </a>
-              </Link>
-              <Link href="/innovations">
-                <a className="mb-4 opacity-50">Innovations</a>
               </Link>
             </div>
           </div>

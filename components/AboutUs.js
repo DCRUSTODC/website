@@ -59,8 +59,8 @@ const AboutUs = () => {
             importantly, GSoC.{" "}
           </p>
           <p className="mb-3 opacity-50">
-            Currently, the community has over 600 members, and there's yet a lot
-            to do, slow and steady.{" "}
+            Currently, the community has over 1000 members, and there's yet a
+            lot to do, slow and steady.{" "}
           </p>
           <Reveal
             delay={200}
