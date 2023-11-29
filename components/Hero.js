@@ -67,7 +67,7 @@ const Hero = () => {
         <Slide delay={200} triggerOnce>
           <div
             className="relative w-full h-[400px] lg:h-[500px]"
-            style={{ marginTop: "-16vh" }}
+            style={{ marginTop: "-16vh", marginBottom: "5vh" }}
           >
             <Image
               layout="responsive"
