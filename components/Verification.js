@@ -67,18 +67,27 @@ const Verification = () => {
             justifyContent: "center",
             alignItems: "center",
             marginTop: "2vh",
+            position: "relative",
+            overflow: "hidden",
+            width: "100%",
+            paddingTop: "56.25%",
           }}
         >
-          <div>
-            {certificateURL && (
-              <iframe
-                src={certificateURL}
-                width="640"
-                height="480"
-                allow="autoplay"
-              ></iframe>
-            )}
-          </div>
+          {certificateURL && (
+            <iframe
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                bottom: 0,
+                right: 0,
+                width: "100%",
+                height: "100%",
+              }}
+              src={certificateURL}
+              allow="autoplay"
+            ></iframe>
+          )}
         </div>
       </div>
     </Container>
