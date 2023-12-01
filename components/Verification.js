@@ -1,11 +1,13 @@
 import { Container } from ".";
 import axios from "axios";
 
+const API = process.env.NEXT_PUBLIC_URL;
+
 const Verification = () => {
   const verifyCertificate = () => {
     const cid = document.querySelector("input").value;
     axios
-      .get(`https://ikigai-p9nl.onrender.com/api/certificate?cid=${cid}`)
+      .get(`${API}/api/certificate?cid=${cid}`)
       .then((res) => {
         alert("Certificate is valid");
       })
