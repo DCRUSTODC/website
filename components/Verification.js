@@ -8,7 +8,6 @@ const Verification = () => {
   const [certificateURL, setcertificateURL] = useState("");
   const verifyCertificate = () => {
     const cid = document.querySelector("input").value;
-    if (cid === "") return setErrorStack("Invalid certificate ID!");
     axios
       .get(`${API}/api/certificate?cid=${cid}`)
       .then((res) => {
@@ -34,6 +33,7 @@ const Verification = () => {
         <center className="text-md text-center mb-5 mt-5">
           <input
             required
+            maxLength={32}
             placeholder="Enter certificate ID"
             style={{
               padding: "1vh 2vw",
