@@ -1,20 +1,30 @@
 import { Container } from ".";
 import { useState } from "react";
 import axios from "axios";
+import { ClipLoader } from "react-spinners";
 
 const API = process.env.NEXT_PUBLIC_URL;
 
 const Verification = () => {
   const [certificateURL, setcertificateURL] = useState("");
-  const verifyCertificate = () => {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const verifyCertificate = async () => {
+    setError("");
     const cid = document.querySelector("input").value;
-    axios
+    if (!cid) {
+      alert("Enter a certificate ID!");
+      return;
+    }
+    setLoading(true);
+    await axios
       .get(`${API}/api/certificate?cid=${cid}`)
       .then((res) => {
         setcertificateURL(res.data.driveURL);
       })
       .catch((err) => {
-        alert("Certificate not found, please check the ID again!");
+        setError(err.response.data.message);
+        setLoading(false);
       });
   };
 
@@ -61,6 +71,14 @@ const Verification = () => {
             VERIFY
           </button>
         </center>
+        <center>{loading && <ClipLoader color="#000" />}</center>
+        <center>
+          {error && (
+            <div>
+              <p className="text-red-500 font-bold">{error}</p>
+            </div>
+          )}
+        </center>
         <div
           style={{
             display: "flex",
@@ -73,8 +91,10 @@ const Verification = () => {
             paddingTop: "56.25%",
           }}
         >
-          {certificateURL && (
+          {certificateURL && !error && (
             <iframe
+              onLoadStart={() => setLoading(true)}
+              onLoad={() => setLoading(false)}
               style={{
                 position: "absolute",
                 top: 0,

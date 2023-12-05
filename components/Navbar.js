@@ -100,7 +100,7 @@ const ContentSidebar = ({ toggleMenu }) => {
           href={"https://discord.gg/ttYFsAwKhY"}
           variant={"outline-primary"}
         >
-          Join Discord
+          Discord
         </Button>
       </div>
     </div>
