@@ -75,7 +75,7 @@ const Verification = () => {
         <center>
           {error && (
             <div>
-              <p className="text-red-500 font-bold">{error}</p>
+              <p className="font-bold">{error}</p>
             </div>
           )}
         </center>
