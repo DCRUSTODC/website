@@ -37,13 +37,13 @@ const Events = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          Recent events
+          Events
         </h2>
       </center>
       <hr />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
         <h1
-          className="text-3xl font-bold mb-8 text-white"
+          className="text-4xl font-bold mb-8 text-white"
           data-aos="fade-right"
           data-aos-delay="500"
         >
@@ -60,7 +60,7 @@ const Events = () => {
         </div>
 
         <h1
-          className="text-3xl font-bold mb-8 text-white my-10"
+          className="text-4xl font-bold mb-8 text-white my-10"
           data-aos="fade-right"
         >
           Previous Events

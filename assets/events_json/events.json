@@ -1,37 +1,41 @@
 [
   {
-    "title": "Establishment of DCRUSTODC",
-    "date": "March 22 2023",
+    "title": "DCRUSTODC Established",
+    "date": "March 22,2023",
     "location": "In the heart of DCRUST",
     "images": "/images/dcrustodc.jpg"
   },
   {
     "title": "Hack-a-theletes",
-    "date": "September 18 2023",
+    "date": "September 18,2023",
     "location": "JCB 213",
     "images": ["/images/hack-a-theletes.jpg"]
   },
   {
     "title": "Expert Nexus",
-    "date": "October 9 2023",
+    "speaker": "Mr. Sunny Gupta",
+    "designation": "Senior Software architect, CSDisco",
+    "date": "October 9,2023",
     "location": "Seminar Hall Mechanical Block",
     "images": ["/images/expert-nexus.jpg"]
   },
   {
     "title": "Odyssey",
-    "date": "November 30 2023",
+    "date": "November 30,2023",
     "location": "Seminar Hall Auditorium",
     "images": ["/images/odyssey.jpg"]
   },
   {
     "title": "ML Meetup",
-    "date": "February 8 2024",
+    "date": "February 8,2024",
     "location": "JCB 212-B",
     "images": ["/images/ml-meetup.jpg"]
   },
   {
     "title": "API 101 using POSTMAN",
-    "date": "February 18 2024",
+    "speaker": "Arvind Srivastav",
+    "designation": "Postman Student Leader",
+    "date": "February 18,2024",
     "location": "Virtual",
     "images": ["/images/postman.jpg"]
   }
