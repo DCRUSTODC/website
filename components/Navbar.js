@@ -72,9 +72,14 @@ const ContentSidebar = ({ toggleMenu }) => {
           About
         </a>
       </Link>
-      <Link href="/#team">
+      <Link href="/team">
         <a onClick={toggleMenu} className="mb-3 sm:mb-0 ml-0 sm:ml-7">
           Team
+        </a>
+      </Link>
+      <Link href="/events">
+        <a onClick={toggleMenu} className="mb-3 sm:mb-0 ml-0 sm:ml-7">
+          Events
         </a>
       </Link>
       <Link href="/#faq">
