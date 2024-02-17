@@ -13,8 +13,16 @@
   },
   {
     "title": "Expert Nexus",
-    "speaker": "Mr. Sunny Gupta",
-    "designation": "Senior Software architect, CSDisco",
+    "speakers": [
+      {
+        "name": "Mr. Sunny Gupta",
+        "designation": "Senior Software architect, CSDisco"
+      },
+      {
+        "name": "Mr. Kamal Sihag",
+        "designation": "Cloud Migration/Data Engineer at IBM"
+      }
+    ],
     "date": "October 9,2023",
     "location": "Seminar Hall Mechanical Block",
     "images": ["/images/expert-nexus.jpg"]
@@ -33,10 +41,18 @@
   },
   {
     "title": "API 101 using POSTMAN",
-    "speaker": "Arvind Srivastav",
-    "designation": "Postman Student Leader",
+    "speakers": [
+      {
+        "name": "Arvind Srivastav",
+        "designation": " Backend Developer & Postman Student Expert"
+      },
+      {
+        "name": "Siddharth Mishra",
+        "designation": "Frontend Developer & Postman Student Expert "
+      }
+    ],
     "date": "February 18,2024",
     "location": "Virtual",
-    "images": ["/images/postman.jpg"]
+    "images": ["/images/arvind.jpg", "/images/sid.jpg"]
   }
 ]
